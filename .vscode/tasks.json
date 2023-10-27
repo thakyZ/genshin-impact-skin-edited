@@ -1,0 +1,84 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "PowerShell 7: Build",
+			"detail": "Run the PowerShell 7 Build Script with parameter `build`",
+			"type": "shell",
+			"command": "${workspaceFolder}/scripts/build.ps1",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "PowerShell 7: Clean",
+			"detail": "Run the PowerShell 7 Build Script with parameter `-Clean`",
+			"type": "shell",
+			"command": "${workspaceFolder}/scripts/build.ps1 -Clean",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"group": {
+				"kind": "none",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "PowerShell 7: Setup",
+			"detail": "Run the PowerShell 7 Build Script with parameter `-Setup`",
+			"type": "shell",
+			"command": "${workspaceFolder}/scripts/build.ps1 -Setup",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"group": {
+				"kind": "none",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "PowerShell 7: Install",
+			"detail": "Run the PowerShell 7 Build Script with parameter `-Install`",
+			"type": "shell",
+			"command": "${workspaceFolder}/scripts/build.ps1 -Install",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+			"group": {
+				"kind": "none",
+				"isDefault": false
+			}
+		},
+		{
+			"type": "markdownlint",
+			"problemMatcher": [
+				"$markdownlint"
+			],
+			"label": "markdownlint: Lint all Markdown files in the workspace with markdownlint"
+		}
+	]
+}
