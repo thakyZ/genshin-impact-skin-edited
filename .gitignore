@@ -101,3 +101,13 @@ $RECYCLE.BIN/
 
 build
 .temp
+
+blender_files/**/Information/
+blender_files/**/*.png
+!blender_files/**/grass.jpg
+blender_files/**/*.blend1
+
+blender_files/venti_god/untitled.blend
+blender_files/venti_god/venti_god_form_mmd_by_*.7z
+blender_files/venti_god/venti_god_form_mmd.pmx
+blender_files/venti_god/Venti_MMD_model.blend

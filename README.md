@@ -1,10 +1,10 @@
 # Genshin Impact Skin (Edited)
 
-Original mod by: [plexpt](https://mods.factorio.com/user/plexpt) [link](https://mods.factorio.com/mod/genshin-impact-skin)
+Original mod by: [plexpt](https://mods.factorio.com/user/plexpt) - \([Original Mod Link](https://mods.factorio.com/mod/genshin-impact-skin)\)
 
 ## Edited Features
 
-- Removed overpowered character status \([`character_creator.lua \(229:5\)`](https://github.com/thakyz/Genshin-Impact-Skin-Edited/blob/main/src/character_creator.lua)\)
+- Removed overpowered character status \([`character_creator.lua (229:5)`](https://github.com/thakyz/Genshin-Impact-Skin-Edited/blob/main/src/character_creator.lua#L229)\)
 - Remove forced dependencies of other mods which shouldn't be a hard requirement.
 - Added version requirements for dependencies.
 - Soon™: Venti God Form skin
