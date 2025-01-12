@@ -1,3 +1,4 @@
+# cSpell:disable
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,linux,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,linux,macos
@@ -102,12 +103,34 @@ $RECYCLE.BIN/
 build
 .temp
 
-blender_files/**/Information/
-blender_files/**/*.png
-!blender_files/**/grass.jpg
-blender_files/**/*.blend1
+**/[Ii]nformation/
+**/assets/*
+!**/assets/grass.jpg
+!**/assets/railway_bridge_02_4k.exr
+*.blend
+*.blend*
+!mineral_select.blend
+![Ff]actorio_[Vv]enti_[Gg]od_[Cc]haracter*.blend
+**/[Aa]nimations/*/*
+!**/[Aa]nimations/*/README.md
+*.png
+*.log
+*.7z
+*.rar
+*.zip
+*.vmd
+*.pmx
+*_MMD_model.*
+*.fbx
+*.pap
+**/render/*
+!**/.gitkeep
+*.url
+*.xps
+使用规则.txt
+!**/[Ll][Ii][Cc][Ee][Nn][Ss][Ee]*
 
-blender_files/venti_god/untitled.blend
-blender_files/venti_god/venti_god_form_mmd_by_*.7z
-blender_files/venti_god/venti_god_form_mmd.pmx
-blender_files/venti_god/Venti_MMD_model.blend
+jetpack*/
+skins-factored*/
+.vscode/sumneko-3rd/
+
