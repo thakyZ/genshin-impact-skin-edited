@@ -1,7 +1,5 @@
 # Original Model File Rules of Use
 
-<!-- cSpell:words Diyu -->
-
 ## zh-Hans
 
 允许改造，优化骨骼和刚体，重制UV

@@ -133,4 +133,7 @@ build
 jetpack*/
 skins-factored*/
 .vscode/sumneko-3rd/
-
+runtime-api.json
+prototype-api.json
+idea.txt
+!thumbnail.png

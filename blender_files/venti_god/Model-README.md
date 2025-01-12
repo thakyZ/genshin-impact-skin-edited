@@ -1,7 +1,5 @@
 ﻿# Original Model File README
 
-<!-- cSpell:words Toki, Mihaiyo -->
-
 ## zh-Hans
 
 本模型是【pl式风神装温迪】

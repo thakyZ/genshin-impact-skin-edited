@@ -1,7 +1,5 @@
 # Blender Files Information
 
-<!-- cSpell:words Hotaru7MMD, Hwaa -->
-
 This is the directory for the model animations.
 [Credits File](./Animation-README.md)
 

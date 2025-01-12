@@ -1,15 +1,18 @@
 {
-  "cSpell.words": ["Venti"],
+  "cSpell.words": ["Venti","starkittsy","Pixiv","PMXE","Hotaru7MMD","Hwaa","xCallme-Luxx","Toki","Mihaiyo","Diyu"],
   "factorio.versions": [
     {
       "name": "2.0",
       "factorioPath": "${userHome}/.factorio/bin/x64/factorio.exe",
-      "active": true,
-    },
+      "active": true
+    }
   ],
-  "Lua.workspace.library": ["${userHome}/.factorio/data"],
+  "Lua.workspace.library": [
+    "${userHome}/.factorio/data"
+],
   "Lua.workspace.userThirdParty": [
     "./.vscode/sumneko-3rd",
-  ],
-  "Lua.workspace.checkThirdParty": "ApplyInMemory",
+    "c:\\Users\\thaky\\AppData\\Roaming\\Code\\User\\workspaceStorage\\a8b37df5bf6eecbb09d24909ff83613b\\justarandomgeek.factoriomod-debug\\sumneko-3rd"
+],
+  "Lua.workspace.checkThirdParty": "ApplyInMemory"
 }

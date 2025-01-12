@@ -1,7 +1,5 @@
 # Original Animation/Model Files Read Me's & Rules of Use
 
-<!-- cSpell:words Pixiv, PMXE, Hotaru7MMD, Hwaa, xCallme-Luxx -->
-
 <details>
 <summary>For Idle & Jog & Walk Cycle Animations [By Hotaru7MMD]</summary>
 
