@@ -1,27 +1,15 @@
 {
-  "cSpell.words": [
-    "Anemo",
-    "Beidou",
-    "Chongyun",
-    "Cryo",
-    "Diluc",
-    "factorio",
-    "Fischl",
-    "Genshin",
-    "ime",
-    "Kaeya",
-    "Keqing",
-    "Liyue",
-    "minime",
-    "Mondstadt",
-    "Ningguang",
-    "plexpt",
-    "Pyro",
-    "Qiqi",
-    "Regisvine",
-    "Venti",
-    "Xiangling",
-    "Xiao",
-    "Xingqiu"
-  ]
+  "cSpell.words": ["Venti"],
+  "factorio.versions": [
+    {
+      "name": "2.0",
+      "factorioPath": "${userHome}/.factorio/bin/x64/factorio.exe",
+      "active": true,
+    },
+  ],
+  "Lua.workspace.library": ["${userHome}/.factorio/data"],
+  "Lua.workspace.userThirdParty": [
+    "./.vscode/sumneko-3rd",
+  ],
+  "Lua.workspace.checkThirdParty": "ApplyInMemory",
 }
