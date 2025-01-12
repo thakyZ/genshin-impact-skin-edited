@@ -1,0 +1,13 @@
+{
+  "name": "venti-god",
+  "version": "1.0.0",
+  "factorio_version": "2.0",
+  "title": "Venti Skin",
+  "author": "nekoboinick",
+  "contact": "",
+  "homepage": "",
+  "dependencies": [
+    "skins-factored >= 1.0.0"
+  ],
+  "description": "Credits: starkittsy https://starkittsy.tumblr.com/post/687245410726723584/would-you-like-a-handful-of-little"
+}
