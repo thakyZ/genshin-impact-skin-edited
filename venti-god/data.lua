@@ -1,4 +1,4 @@
-local skins_factored = require("skins_factored")
+-- local skins_factored = require("skins_factored")
 VENTI_GOD = {}; ---@type table
 VENTI_GOD.is_debug = false ---@type boolean
 local shared = require("shared") ---@type table
@@ -130,9 +130,9 @@ skins_factored.create_skin(char_name, {
   },
 })
 
-local shift = util.by_pixel(-0.5,-34.5) ---@type Vector.1
+local shift = util.by_pixel(-0.5,-34.5) ---@type Vector.0
 
-local animation_base = { ---@type AnimationPrototype
+local animation_base = { ---@type data.AnimationParameters
   filename = HR_IMG_PATH.."jetpack.png",
   width = 256,
   height = 256,
@@ -143,7 +143,7 @@ local animation_base = { ---@type AnimationPrototype
   animation_speed = 0.6,
   scale = 0.5
 }
-local animation_mask = { ---@type AnimationPrototype
+local animation_mask = { ---@type data.AnimationParameters
   apply_runtime_tint = true,
   filename = HR_IMG_PATH.."jetpack-mask.png",
   width = 256,
@@ -155,7 +155,7 @@ local animation_mask = { ---@type AnimationPrototype
   animation_speed = 0.6,
   scale = 0.5
 }
-local animation_flame = { ---@type AnimationPrototype
+local animation_flame = { ---@type data.AnimationParameters
   draw_as_glow = true,
   filename = HR_IMG_PATH.."jetpack-flame.png",
   width = 256,
@@ -167,7 +167,7 @@ local animation_flame = { ---@type AnimationPrototype
   animation_speed = 0.6,
   scale = 0.5
 }
-local animation_layers = { ---@type Array<Animation>
+local animation_layers = { ---@type data.AnimationParameters[]
   animation_base,
   animation_mask,
   animation_flame
@@ -175,7 +175,7 @@ local animation_layers = { ---@type Array<Animation>
 
 -- make rendering animations
 for i, name in pairs({"jetpack-animation", "jetpack-animation-mask", "jetpack-animation-flame"}) do
-  local set = table.deepcopy(animation_layers[i]) ---@type AnimationPrototype
+  local set = table.deepcopy(animation_layers[i])
   set.type = "animation"
   set.name = char_name.."-"..name
   set.apply_runtime_tint = true
@@ -187,7 +187,7 @@ for i, name in pairs({"jetpack-animation", "jetpack-animation-mask", "jetpack-an
   data:extend({ [0] = set })
 end
 
-local jetpack_shadow = { ---@type RotatedAnimation
+local jetpack_shadow = { ---@type data.AnimationParameters
   type = "animation",
   name = char_name.."jetpack-animation-shadow",
   draw_as_shadow = true,
